@@ -1,1 +1,1 @@
-{"name": "finmuse-frontend", "version": "1.0.0", "private": true, "scripts": {"build": "mkdir -p build && cp -r public/* build/"}}
+{"name": "finmuse-frontend", "version": "1.0.0", "private": true, "scripts": {"build": "if not exist build mkdir build && xcopy public build /E /I /Y"}}
