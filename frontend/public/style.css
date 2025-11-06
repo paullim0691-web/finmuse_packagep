@@ -1,0 +1,12 @@
+:root{--bg:#f7fafc;--card:#fff;--accent:#0b64c9;--muted:#6b7280}
+*{box-sizing:border-box}
+body{font-family:Inter,Arial,Helvetica,sans-serif;background:var(--bg);color:#0f1724;margin:0;padding:0}
+.top{display:flex;justify-content:space-between;align-items:center;padding:14px 20px;background:var(--card);border-bottom:1px solid #e6eef3}
+.brand h1{margin:0;font-size:20px}
+.tag{font-size:13px;color:var(--muted)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(320px,1fr));gap:16px;padding:16px}
+.card{background:var(--card);padding:14px;border-radius:10px;border:1px solid #e6eef3;box-shadow:0 1px 2px rgba(2,6,23,0.03)}
+.card h3{margin:0 0 8px 0;font-size:16px}
+.meta{display:flex;justify-content:space-between;color:var(--muted);font-size:12px}
+.trend{padding:16px;background:#0b2545;color:#fff;border-radius:8px;margin:12px}
+.footer{padding:20px;text-align:center;color:var(--muted);font-size:13px}
